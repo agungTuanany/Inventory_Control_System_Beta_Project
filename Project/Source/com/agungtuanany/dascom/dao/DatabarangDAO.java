@@ -9,7 +9,7 @@ import java.util.List;
 
 import com.agungtuanany.dascom.model.Databarang;
 
-public class Databarangdao {
+public class DatabarangDAO {
 
 	private static final String CREATE = //
 	"INSERT INTO DataBarang (idDataBarang, NamaBarang, Stok, HargaJual, HargaBeli, SatuanUkuran, Deskripsi, Keterangan) VALUES (?,?,?,?,?,?,?,?)";
@@ -40,7 +40,7 @@ public class Databarangdao {
 
 	private Connection connection;
 
-	public Databarangdao() {
+	public DatabarangDAO() {
 
 		// seremonial
 		try {
